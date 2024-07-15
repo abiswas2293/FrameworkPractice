@@ -10,7 +10,7 @@ public class SearchPage extends BaseClass {
 String text="";
   public void typeText(String text){
       this.text=text;
-     // driver.findElement(search).sendKeys(text);
+     driver.findElement(search).sendKeys(text);
   }
   public void clickButton(){
       driver.findElement(Button).click();
